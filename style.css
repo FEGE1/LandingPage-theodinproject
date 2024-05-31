@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.f-end{
+    justify-content: flex-end;
+}
+
+.dark{
+    background-color: #1F2937;
+}
+
+.navbar{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16% 0 16%;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-content ul{
+    display: flex;
+    gap: 15px;
+}
+
+.container{
+    padding: 0 16% 0 16%;
+    height: 530px;
+    align-content: center;
+}
+
+.main-image{
+    height: 250px;
+    width: 1000px;
+    background-color: rgb(67, 67, 67);
+}
+
+.flex{
+    display: flex;
+    gap: 60px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.small-text{
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB!important;
+}
+
+.btn{
+    border: none;
+    color: #F9FAF8;
+    border-radius: 8px;
+    height: 35px;
+    width: 135px;
+    background-color: #3882F6;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.info-text{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    margin-top:0;
+    margin-bottom: 50px;
+}
+
+.info-image{
+    width: 180px;
+    height: 180px;
+    border: solid 4px #3882F6;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.info-item{
+    margin-bottom: 70px;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+.info-item p{
+    color: #1F2937;
+}
+
+#section2 .flex{
+    justify-content: center;
+    gap:80px;
+}
+
+#section3{
+    background-color: #E5E7EB;
+    padding: 0 25% 0 25%;
+}
+
+.italic{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+}
+
+.author{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 5px 40px 0 0;
+}
+
+#section4 .flex{
+    padding: 50px 100px 50px 100px;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+#section4 .btn{
+    border: 2px solid white;
+}
+
+.quote{
+    color: #F9FAF8;
+}
